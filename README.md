@@ -12,7 +12,6 @@ The system is divided into three main components:
 |------------|-------------|-------------|
 | **Frontend** | Vue 3 + Vite + Tailwind | Player interface: queue, draft, map veto, match lobby |
 | **Backend** | Node.js + Express + MongoDB | Matchmaking logic, WebSocket connections, Dathost integration |
-| **Discord Bot** | Node.js + Discord.js | Handles Discord verification and queue syncing |
 
 All three communicate via secure REST and WebSocket connections.
 
